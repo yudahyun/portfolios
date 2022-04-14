@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: "Karma", sans-serif !important;
+}
+
+html, body {
+    font-family: Verdana,sans-serif !important;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400 !important;
+    margin: 10px 0 !important;
+    line-height: 1.5 !important;
+}
+h3 {
+    font-size: 24px !important;
+    
+}
+p{
+    font-size: 15px !important;
+    margin: 15px 0 !important ;
+    line-height: 1.5 !important;
+
+}
+.display-flex{
+    display: flex;
+}
+.txt-center{
+    text-align: center;
+}
+.justify-space-between{
+    justify-content: space-between;
+}
+.normal-padding{
+    padding: 16px 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* 시작 */
+header{ 
+    background: #fff;
+    width: calc(1200px + 32px);
+    position: fixed;
+    left: 50%;
+    align-items: center;
+    transform: translate(-50%, 0);
+}
+header button{
+    background: none;
+    width: 30px;
+    border: none;
+}
+header button img{
+    width: 100%;
+}
+
+header >h1,header >a{
+    text-decoration: none;
+    color: #000;
+    font-size: 24px !important; 
+    font-family: "Karma", sans-serif !important;
+    line-height: 1.5;
+
+}
+.gallery-con{
+    padding-top: 100px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap : 8px
+}
+
+.gallery-wrap{
+    width: 24%;
+}
+
+.gallery-wrap img{
+    width: 100%;
+}
+
+.arrow-con{
+    position: relative;
+}
+.arrow-wrap{
+    text-align: center;
+    /* position: absolute; */
+    margin:  0 auto;
+    display: block;
+}
+.arrow-wrap a{
+    color: #000;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Karma", sans-serif !important;
+    
+}
+
+.arrow-con a.link-active{
+    background: #000;
+    color: #fff;
+
+}
+.arrow-wrap a:hover{
+    background: #ccc;
+    color: #fff;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.about-me img{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.about-me h4{
+    font-weight: bold !important;
+    font-size: 20px;
+}
+
+.about-me i{
+    font-style: italic;
+    font-size: 16px;
+    font-family: "Karma", sans-serif !important;
+}
+
+.about-me-txt {
+    padding: 32px 0;
+}
+
+/* 푸터 */
+footer .footer-inner{
+    width: 33%;
+    gap: 16px;
+   
+}
+
+footer a{
+    color: #000;
+}
+.footer-inner .img-txt div:first-child{
+    font-size: 18px;
+
+}
+.footer-inner img{
+    margin: 0 16px 0 0;
+}
+
+.footer-inner .display-flex{
+    align-items: center;
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.footer-inner .display-flex:hover{
+    background-color: #ccc;
+}
+
+.tag-st{
+    color: #fff!important;
+    background-color: #616161!important;
+    font-size: 12px;
+    text-align: center;
+    padding: 0 8px;
+    line-height: 1.5;
+    display: inline-block;
+    margin: 0 0 16px 0;
+}
+
+.tag-st.active{
+    background: #000 !important;
+    font-weight: bold;
+}
+
