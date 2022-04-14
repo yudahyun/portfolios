@@ -403,23 +403,34 @@ header .floating-card-wrap .floating-card {
   margin-left: 200px;
 }
 .container .section-6 {
-  background: url("../img/5_bg.jpeg");
-  background-attachment: fixed;
+  background: url("../img/5_bg.jpeg") center center fixed no-repeat #45434c;
+  background-size: auto 100%;
   width: 100%;
-  height: 862px;
+  height: 800px;
+  position: relative;
 }
 .container .section-6 .pick-u-favotite-wrap {
   width: 1100px;
   margin: 0 auto;
   display: flex;
-  top: 50%;
+  gap: 0 166px;
+  position: absolute;
   align-items: center;
   justify-content: space-between;
-  transform: translate(0, 50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.container .section-6 .pick-u-favotite-wrap a.border_btn {
+.container .section-6 .pick-u-favotite-wrap .pick-txt-wrap {
+  text-align: right;
+}
+.container .section-6 .pick-u-favotite-wrap .pick-txt-wrap img {
+  margin: 40px 0 0 0;
+}
+.container .section-6 .pick-u-favotite-wrap .pick-txt-wrap a.border_btn {
   color: #fff;
   border: 2px solid #fff;
+  display: inline-block;
 }
 .container :is(section) a.border_btn {
   width: 125px;

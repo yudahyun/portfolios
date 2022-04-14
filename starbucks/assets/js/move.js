@@ -46,13 +46,21 @@ document.querySelectorAll(".border_btn").forEach((v, i) => {
       // console.log(bgColor);
       current.style.backgroundColor = bgColor;
       current.style.color = "#fff";
-
+      current.style.textDecoration="underline";
+      //혼자 검정색으로 변함
+      if(current.classList.contains("black-btn")){
+        // console.log("넌 검정");
+        current.style.color = "#000"
+      }
   });
   v.addEventListener("mouseout", e => {
       const current = e.currentTarget;
       const bgColor = current.dataset.color;
       current.style.background = "none";
       current.style.color = current.dataset.color;
-
+      current.style.textDecoration="none"
+    
   });
 });
+
+

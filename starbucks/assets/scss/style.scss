@@ -517,21 +517,32 @@ header {
         }   
     }
     .section-6{
-        background: url($url-images +"5_bg.jpeg");
-        background-attachment: fixed;
+        background: url($url-images +"5_bg.jpeg") center center fixed no-repeat #45434c;
+        background-size: auto 100%;
         width: 100%;
-        height: 862px;
+        height: 800px;
+        position: relative;
         .pick-u-favotite-wrap{
             width: 1100px;
             margin: 0 auto;
             display: flex;
-            top: 50%;
+            gap: 0 166px;
+            position: absolute;
             align-items: center;
             justify-content: space-between;
-            transform: translate(0, 50%);
-            a.border_btn{
-                color: #fff;
-                border : 2px solid #fff;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            .pick-txt-wrap{
+                text-align: right;
+                img{
+                    margin: 40px 0 0 0;
+                }
+                a.border_btn{
+                    color: #fff;
+                    border : 2px solid #fff;
+                    display: inline-block;
+                }
             }
         }
     }
