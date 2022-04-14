@@ -464,4 +464,56 @@ header .floating-card-wrap .floating-card {
   box-sizing: border-box;
   margin-top: 39px;
   transition: all 0.2s;
+}
+.container .section-8 {
+  background: url("../img/8_bg.jpeg");
+  width: 100%;
+  height: 400px;
+}
+.container .section-8 .store-inner {
+  width: 984px;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container .section-8 .store-inner::before {
+  content: "";
+  background: url("../img/");
+}
+.container .section-8 .store-inner:after {
+  content: "";
+}
+.container .section-8 .store-inner .store-wrap {
+  position: relative;
+}
+.container .section-8 .store-inner .store-wrap img {
+  display: block;
+}
+.container .section-8 .store-inner .store-wrap .img_8_1 {
+  position: absolute;
+  z-index: 1;
+  left: 226px;
+  top: 150px;
+}
+.container .section-8 .store-inner .store-wrap .img_8_2 {
+  position: absolute;
+}
+.container .section-8 .store-inner .store-wrap .img_8_3 {
+  margin: 99px 0 0 0;
+}
+.container .section-8 .store-inner .store-wrap .img_8_4 {
+  margin: 15px 0 0 0;
+}
+.container .section-8 .store-inner .store-wrap a.border_btn {
+  color: #000;
+  border: 2px solid #000;
+  display: block;
+  margin: 20px 0 0 0;
+}
+.container footer .footer-inner {
+  background: #2C2A29;
+}
+.container footer .footer-inner {
+  background: #282828;
 }/*# sourceMappingURL=style.css.map */
