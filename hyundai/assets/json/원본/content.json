@@ -1,0 +1,21 @@
+{
+	"content": [
+		{
+			"category": "지속가능한 생활",
+			"subject": "나만의 도시 정원을 가꾸는 법",
+			"url": "https://www.hyundai.com/worldwide/ko/lifestyle/how-to-create-your-own-urban-garden",
+			"img_pc": "/content/dam/hyundai/ww/en/images/main/lifestyle/736/40-lifestyle-urban-gardening-pc-736.jpg",
+			"img_m": "/content/dam/hyundai/ww/en/images/main/lifestyle/580x514/40-lifestyle-urban-gardening-m-580x514.jpg",
+			"width": 736,
+			"height": 390
+		}, {
+			"category": "지속가능한 모빌리티",
+			"subject": "Power your beat: 아이오닉 5의 파워를 이용한 DJ공연",
+			"url": "https://www.hyundai.com/worldwide/ko/ioniq/power-your-beat-dj-set",
+			"img_pc": "/content/dam/hyundai/ww/en/images/main/ioniq/352x390/11-ioniq-power-your-beat-pc-352x390.jpg",
+			"img_m": "/content/dam/hyundai/ww/en/images/main/ioniq/580x280/11-ioniq-power-your-beat-m-580x280.jpg",
+			"width": 352,
+			"height": 390
+		}
+	]
+}
