@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b171cff5-cb42-4af6-9324-184d1197c124" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XbIFCfwT18TQYXSsfA7lZGHPmx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b171cff5-cb42-4af6-9324-184d1197c124" name="Default Changelist" comment="" />
+      <created>1581308261313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581308261313</updated>
+      <workItem from="1581308263800" duration="37984000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="176" key="#Deployment" timestamp="1581313324518">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="440" y="176" key="#Deployment/0.23.1680.976@0.23.1680.976" timestamp="1581313324518" />
+    <state x="440" y="176" key="#Options" timestamp="1581314040414">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="440" y="176" key="#Options/0.23.1680.976@0.23.1680.976" timestamp="1581314040414" />
+    <state x="578" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581318124694">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="578" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.976@0.23.1680.976" timestamp="1581318124694" />
+    <state x="517" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1581308297795">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="517" y="343" key="com.intellij.ide.util.TipDialog/0.23.1680.976@0.23.1680.976" timestamp="1581308297795" />
+    <state x="746" y="248" width="566" height="525" key="ftp.server.browser" timestamp="1581310057006">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="746" y="248" width="566" height="525" key="ftp.server.browser/0.23.1680.976@0.23.1680.976" timestamp="1581310057006" />
+    <state x="711" y="411" key="publish.login" timestamp="1581309110293">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="711" y="411" key="publish.login/0.23.1680.976@0.23.1680.976" timestamp="1581309110293" />
+    <state x="505" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1581757524266">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="505" y="238" width="670" height="676" key="search.everywhere.popup/0.23.1680.976@0.23.1680.976" timestamp="1581757524266" />
+  </component>
+</project>

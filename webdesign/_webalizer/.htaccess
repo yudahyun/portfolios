@@ -1,0 +1,4 @@
+AuthName     webalizer
+AuthType     Basic
+AuthUserFile /home/yudada/htpasswd
+require      valid-user
