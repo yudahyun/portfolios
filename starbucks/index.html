@@ -8,9 +8,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/reset200802.css">
-    <!--animate.css 불러오기 --> 
+    <!--animate.css 불러오기 -->
 
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
@@ -416,12 +416,40 @@
         <section class="section-4">
             <div class="beverage-wrap">
                 <img src="./assets/img/beverage.png" alt="" class=" animate__animated animate__fadeInLeft">
+                <div class="animate__animated animate__fadeInRight">
+                    <img src="./assets/img/beverage-txt.png" alt="">
+                    <a href="#" data-color="#1e245c" class="border_btn">자세히보기</a>
+                </div>
+
             </div>
+        </section>
+        <section>
+            
         </section>
     </div>
     <!-- <script src="./assets/js/move.js">
 
     </script> -->
+    <script>
+        document.querySelectorAll(".border_btn").forEach((v, i) => {
+            v.addEventListener("mouseover", e => {
+                const current = e.currentTarget;
+                // console.log(current);
+                const bgColor = current.dataset.color;
+                // console.log(bgColor);
+                current.style.backgroundColor = bgColor;
+                current.style.color = "#fff";
+
+            });
+            v.addEventListener("mouseout", e => {
+                const current = e.currentTarget;
+                const bgColor = current.dataset.color;
+                current.style.background = "none";
+                current.style.color = current.dataset.color;
+
+            });
+        });
+    </script>
 </body>
 
 </html>

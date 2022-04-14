@@ -324,4 +324,53 @@ header .floating-card-wrap .floating-card {
 }
 .container .section-3 .reward-inner .reward_txt .reward_inner_txt:nth-child(2) p {
   font-size: 14px;
+}
+.container .section-4 {
+  background: url("../img/2_bg_bg.jpeg") no-repeat;
+  position: relative;
+  padding: 72px 0;
+}
+.container .section-4:before {
+  content: " ";
+  background: url("../img/2_bg.png") no-repeat;
+  width: 425px;
+  height: 392px;
+  /* padding: 200px; */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container .section-4:after {
+  content: " ";
+  background: url("../img/3_bg_bg.png") no-repeat;
+  width: 425px;
+  height: 392px;
+  /* padding: 200px; */
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.container .section-4 .beverage-wrap {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .section-4 a.border_btn {
+  color: #1e245c;
+  border: 2px solid #1e245c;
+}
+.container :is(section) a.border_btn {
+  width: 125px;
+  height: 38px;
+  z-index: 6;
+  display: block;
+  font-size: 15px;
+  line-height: 34px;
+  border-radius: 5px;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 39px;
+  transition: all 0.2s;
 }/*# sourceMappingURL=style.css.map */
