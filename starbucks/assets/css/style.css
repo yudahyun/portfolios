@@ -269,6 +269,54 @@ header .floating-card-wrap .floating-card {
   height: 36px;
   border: none;
 }
+.container .section-2 .slide-wrapper {
+  width: 100%;
+  position: relative;
+  height: 753px;
+  margin: 0 auto;
+}
+.container .section-2 .slide-wrapper a.border_btn {
+  color: #1e245c;
+  border: 2px solid #1e245c;
+  display: block;
+  margin: 30px auto 0;
+}
+.container .section-2 .slick-slider {
+  width: 100% !important;
+  display: inline-block !important;
+}
+.container .section-2 .slick-slider .slider-img {
+  margin: 20px;
+  box-sizing: border-box;
+  width: 800px !important;
+}
+.container .section-2 .slick-slider .slider-img img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+.container .section-2 .slick-slider .slick-track {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.container .section-2 .slick-slider .slick-slide {
+  opacity: 0.3 !important;
+}
+.container .section-2 .slick-slider .slick-slide.slick-center {
+  opacity: 1 !important;
+}
+.container .section-2 .slick-prev {
+  background: red;
+  left: 100px;
+  z-index: 999;
+}
+.container .section-2 .slick-next {
+  background: red;
+  right: 100px;
+  z-index: 999;
+}
 .container .section-3 {
   background: #1e3932;
 }

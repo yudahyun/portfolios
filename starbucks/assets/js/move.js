@@ -10,21 +10,20 @@ document.querySelectorAll(".sub-menu").forEach((v, i) => {
   });
 });
 
+//해더 메뉴 펼쳐지기 
 document.querySelectorAll(".sub-menu").forEach((v, i) => {
   // console.log(v.firstChild);
 
   v.addEventListener("mouseover", (e) => {
     const sub = e.currentTarget.children[1];
-    // sub.style.display="block";
+   
     sub.style.height = "auto";
-    // sub.style.transition = "all 5s";
+   
   });
   v.addEventListener("mouseout", (e) => {
     const sub = e.currentTarget.children[1];
     sub.style.height = "0";
-    // sub.style.transition = "all 5s";
-    // sub.style.display="none";
-    // sub.style.height="0";
+   
   });
 });
 
@@ -45,12 +44,22 @@ document.querySelector(".search-btn").addEventListener(
   },
   { once: true }
 );
+
+
 //애니메이션 클래스 추가 함수
 function addFadein(element) {
   element.classList.add("animate__animated");
   element.style.display = "block";
   return element;
 }
+
+//최상단 애니매이션 바로 실행 
+document.querySelectorAll(".show-main *").forEach((v, i) => {
+  setTimeout(() => { addFadein(v);}, i * 700);
+});
+
+
+
 //스크롤 위치 감지하여 애니매이션 시작
 window.addEventListener("scroll", (e) => {
   //스크롤바의 Y 좌표
@@ -66,7 +75,7 @@ window.addEventListener("scroll", (e) => {
       document
         .querySelector(".indonesia-wrap")
         .classList.add("animate__fadeIn");
-
+      //section-6
       if (scrollTop >= 1400) {
         // document.querySelector(".pick-txt-wrap").classList.add("animate__fadeIn");
         document.querySelectorAll(".pick-txt-wrap img").forEach((v, i) => {
@@ -79,11 +88,12 @@ window.addEventListener("scroll", (e) => {
             .querySelector(".pick-txt-wrap a")
             .classList.add("animate__fadeIn");
         }, 800);
+        //section-7
         if (scrollTop >= 2000) {
           document
             .querySelector(".reserve-wrap-img")
             .classList.add("animate__fadeIn");
-
+            //section-8
           if (scrollTop >= 2400) {
 
             document.querySelectorAll(".store-wrap img").forEach((v, i) => {
@@ -102,11 +112,7 @@ window.addEventListener("scroll", (e) => {
   }
 });
 
-document.querySelectorAll(".show-main *").forEach((v, i) => {
-  setTimeout(() => {
-    addFadein(v);
-  }, i * 700);
-});
+
 
 //버튼 배경 색 바꾸기
 document.querySelectorAll(".border_btn").forEach((v, i) => {
@@ -133,4 +139,4 @@ document.querySelectorAll(".border_btn").forEach((v, i) => {
   });
 });
 
-//
+// $('.center').slick();

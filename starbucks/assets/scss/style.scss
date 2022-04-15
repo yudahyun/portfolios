@@ -359,6 +359,72 @@ header {
                 }
             }
         }
+
+        .slide-wrapper{
+            width: 100%;
+            position: relative;
+            height: 753px;
+            margin:0 auto;
+            a {
+                &.border_btn {
+                    color: #1e245c;
+                    border: 2px solid #1e245c;
+                    display: block;
+                    margin: 30px auto 0;
+                }
+    
+    
+            }
+        }
+        
+        .slick-slider {
+
+            width: 100% !important; display: inline-block !important;
+            .slider-img{
+                margin: 20px;
+                // border:10px solid red;
+                box-sizing: border-box;
+                width: 800px !important;
+                img{
+                    // width: 800px !important;
+                    display: block;
+                    width: 100%;
+                    margin: 0 auto;
+                }
+                // overflow: hidden;
+            }
+            .slick-track {
+                display: flex;
+                align-items: center;
+                flex-wrap: nowrap;
+                
+                justify-content: center;
+              }
+            // .slick-slide img {
+            //     width: 800px;
+            // }
+            .slick-slide{
+                opacity: 0.3 !important;
+            }
+            .slick-slide.slick-center {
+                // border: 5px solid red !important;
+                opacity: 1 !important;
+                
+            }
+              
+        }
+        .slick-prev{
+            background: red;
+            left: 100px;
+            z-index: 999;
+        }
+        .slick-next{
+            // border: 20px solid red !important;
+            background: red;
+            right: 100px;
+            z-index: 999;
+        }
+        
     }
 
     .section-3 {
@@ -521,6 +587,7 @@ header {
             background: url($url-images +"4_beverage.png");
             width: 100%;
             height: 400px;
+
             &::before {
                 position: absolute;
                 bottom: 0;
@@ -531,7 +598,7 @@ header {
                 width: 373px;
                 height: 273px;
             }
-    
+
             &::after {
                 position: absolute;
                 bottom: 0;
@@ -551,6 +618,7 @@ header {
             position: relative;
             top: -400px;
             z-index: 1;
+
             .indonesia-txt {
                 width: 1100px;
                 margin: 0 auto;
@@ -560,7 +628,7 @@ header {
             }
         }
 
-      
+
 
         a {
             &.border_btn {
@@ -787,26 +855,30 @@ header {
                 display: flex;
                 justify-content: center;
                 margin: 20px 0 5px;
+
                 li {
                     border-right: 1px solid #ccc;
-                    &:first-child{
-                        a{
+
+                    &:first-child {
+                        a {
                             color: #669900;
-                        }   
+                        }
                     }
+
                     a {
                         color: #ccc;
-                        
+
                         display: block;
-                        padding:0 10px;
+                        padding: 0 10px;
                         font-size: 14px;
-                       
-                        &:hover{
+
+                        &:hover {
                             text-decoration: underline;
                         }
                     }
-                    &:last-child{
-                        border:none;
+
+                    &:last-child {
+                        border: none;
                     }
                 }
             }
