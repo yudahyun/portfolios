@@ -57,15 +57,14 @@ header .floating-card-wrap .floating-card {
   padding: 14px;
   color: #555;
 }
+.nav .nav-inner .search-nav li a:hover {
+  text-decoration: underline;
+}
 .nav .nav-inner .search-nav li a::after {
   border-bottom: 1px solid #4b615b;
   content: "|";
   font-size: 13px;
   color: #f1f1f1;
-}
-.nav .nav-inner .search-nav li a:hover {
-  border-bottom: 1px solid #4b615b;
-  text-decoration: underline;
 }
 .nav .nav-inner .search-nav li a:last-child::after {
   border: none;
@@ -111,7 +110,6 @@ header .floating-card-wrap .floating-card {
   display: block;
 }
 .nav .nav-inner .main-nav .sub-menu:hover {
-  border-bottom: 1px solid #4b615b;
   background: #2C2A29;
   text-decoration: underline;
 }
@@ -140,7 +138,6 @@ header .floating-card-wrap .floating-card {
   margin: 20px;
 }
 .nav .nav-inner .sub-wrapper .sub-inner .sub-nav li:first-child {
-  border-bottom: 1px solid #4b615b;
   color: #fff;
   font-weight: bold;
 }
@@ -187,6 +184,7 @@ header .floating-card-wrap .floating-card {
 }
 .container .section-1 .show-main img {
   position: absolute;
+  display: none;
 }
 .container .section-1 .show-main .main-img-1 {
   left: 34px;
@@ -205,6 +203,7 @@ header .floating-card-wrap .floating-card {
   right: -104px;
 }
 .container .section-1 .show-main .detail {
+  display: none;
   color: #d73a7a;
   border: 2px solid #d73a7a;
   top: 240px;
