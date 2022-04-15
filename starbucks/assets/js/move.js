@@ -45,25 +45,67 @@ document.querySelector(".search-btn").addEventListener(
   },
   { once: true }
 );
-
-//스크롤 위치 감지하여 애니매이션 시작
-window.addEventListener("scroll", (e) => {
-  // const documentHeight = document.scrollHeight;
-  // const scrollTop = window.scrollY;
-  // scro
-});
 //애니메이션 클래스 추가 함수
-function addFadein(element){
-  element.classList.add("animate__fadeIn");
-  element.style.display=("block");
+function addFadein(element) {
+  element.classList.add("animate__animated");
+  element.style.display = "block";
   return element;
 }
+//스크롤 위치 감지하여 애니매이션 시작
+window.addEventListener("scroll", (e) => {
+  //스크롤바의 Y 좌표
+  let scrollTop = window.scrollY;
+  //section-4
+  if (scrollTop >= 500) {
+    document.querySelectorAll(".fadein_1").forEach((v, i) => {
+      // console.log(scrollTop);
+      v.style.display = "block";
+    });
+    //section-5
+    if (scrollTop >= 1000) {
+      document
+        .querySelector(".indonesia-wrap")
+        .classList.add("animate__fadeIn");
 
-document.querySelectorAll(".show-main *").forEach((v,i)=>{
-  // console.log(v);
-   const fadeOrder = v.dataset.fade ;
-   console.log(fadeOrder);
-  setTimeout(()=>{addFadein(v)}, fadeOrder * 700);
+      if (scrollTop >= 1400) {
+        // document.querySelector(".pick-txt-wrap").classList.add("animate__fadeIn");
+        document.querySelectorAll(".pick-txt-wrap img").forEach((v, i) => {
+          setTimeout(() => {
+            v.classList.add("animate__fadeInLeft");
+          }, i * 200);
+        });
+        setTimeout(() => {
+          document
+            .querySelector(".pick-txt-wrap a")
+            .classList.add("animate__fadeIn");
+        }, 800);
+        if (scrollTop >= 2000) {
+          document
+            .querySelector(".reserve-wrap-img")
+            .classList.add("animate__fadeIn");
+
+          if (scrollTop >= 2400) {
+
+            document.querySelectorAll(".store-wrap img").forEach((v, i) => {
+              v.classList.add("animate__fadeIn");
+            });
+            document.querySelectorAll(".store-wrap *").forEach((v, i) => {
+              setTimeout(() => {
+                v.classList.add("animate__fadeInRight");
+              }, i * 300);
+            });
+
+          }
+        }
+      }
+    }
+  }
+});
+
+document.querySelectorAll(".show-main *").forEach((v, i) => {
+  setTimeout(() => {
+    addFadein(v);
+  }, i * 700);
 });
 
 //버튼 배경 색 바꾸기
