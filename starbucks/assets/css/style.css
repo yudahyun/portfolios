@@ -45,16 +45,16 @@ header .floating-card-wrap .floating-card {
 .nav .nav-inner .search-nav {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   line-height: 20px;
   font: normal 13px "L", Arial, georgia;
   margin: 5px 0 0 0;
 }
 .nav .nav-inner .search-nav li {
-  padding: 0 15px;
   border-right: 1px solid #ccc;
 }
 .nav .nav-inner .search-nav li a {
-  padding: 15px;
+  padding: 14px;
   color: #555;
 }
 .nav .nav-inner .search-nav li a::after {
@@ -67,19 +67,33 @@ header .floating-card-wrap .floating-card {
   border-bottom: 1px solid #4b615b;
   text-decoration: underline;
 }
+.nav .nav-inner .search-nav li a:last-child::after {
+  border: none;
+  content: "";
+}
+.nav .nav-inner .search-nav li.search-wrap {
+  background: #fff;
+  border: 1px solid #ccc !important;
+  border-radius: 4px;
+  padding: 9px 1px;
+}
+.nav .nav-inner .search-nav li.search-wrap input[type=search] {
+  width: 0;
+  border: none;
+  background: none;
+  transition: all 0.5s;
+}
 .nav .nav-inner .search-nav li .search-btn {
   background: url("../img/search_icon.png") no-repeat center center #fff;
   color: #f6f5ef;
-  padding: 10px 19px;
+  padding: 8px 15px;
   color: #555;
-  border: 1px solid rgb(0, 0, 0);
   width: 20px;
   height: 20px;
   border-radius: 5px;
 }
-.nav .nav-inner .search-nav li:last-child {
-  border-bottom: 1px solid #4b615b;
-  border: none;
+.nav .nav-inner .search-nav li .search-btn:hover {
+  border: none !important;
 }
 .nav .nav-inner .main-nav {
   display: flex;
