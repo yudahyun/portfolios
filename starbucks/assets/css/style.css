@@ -273,6 +273,8 @@ header .floating-card-wrap .floating-card {
   width: 100%;
   position: relative;
   height: 753px;
+  height: 0;
+  overflow: hidden;
   margin: 0 auto;
 }
 .container .section-2 .slide-wrapper a.border_btn {
@@ -280,6 +282,10 @@ header .floating-card-wrap .floating-card {
   border: 2px solid #1e245c;
   display: block;
   margin: 30px auto 0;
+}
+.container .section-2 .display-block {
+  display: block;
+  height: auto;
 }
 .container .section-2 .slick-slider {
   width: 100% !important;
@@ -308,14 +314,30 @@ header .floating-card-wrap .floating-card {
   opacity: 1 !important;
 }
 .container .section-2 .slick-prev {
-  background: red;
-  left: 100px;
+  background: url("../img/arrow.png") no-repeat center center #fff;
+  left: 300px;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  padding: 22px;
+  display: block;
   z-index: 999;
+  transform: rotate(180deg);
 }
 .container .section-2 .slick-next {
-  background: red;
-  right: 100px;
+  background: url("../img/arrow.png") no-repeat center center #fff;
+  right: 300px;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  padding: 22px;
+  display: block;
   z-index: 999;
+}
+.container .section-2 .slick-prev:before, .container .section-2 .slick-next:before {
+  font-size: 0;
 }
 .container .section-3 {
   background: #1e3932;

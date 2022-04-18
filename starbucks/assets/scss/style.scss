@@ -364,7 +364,13 @@ header {
             width: 100%;
             position: relative;
             height: 753px;
+
+            // display: block;
+            height: 0;
+            overflow: hidden;
+
             margin:0 auto;
+            // display: none;
             a {
                 &.border_btn {
                     color: #1e245c;
@@ -375,6 +381,10 @@ header {
     
     
             }
+        }
+        .display-block{
+            display: block;
+            height: auto;
         }
         
         .slick-slider {
@@ -414,15 +424,31 @@ header {
               
         }
         .slick-prev{
-            background: red;
-            left: 100px;
+            background: url($url-images +"arrow.png") no-repeat center center #fff;
+            left: 300px;
+            width: 30px;
+            height: 30px;
+            border: 2px solid #000;
+            border-radius: 50%;
+            padding: 22px;
+            display: block;
             z-index: 999;
+            transform: rotate(180deg);
         }
         .slick-next{
-            // border: 20px solid red !important;
-            background: red;
-            right: 100px;
+            background: url($url-images +"arrow.png") no-repeat center center #fff;
+           right: 300px;
+            width: 30px;
+            height: 30px;
+            border: 2px solid #000;
+            border-radius: 50%;
+            padding: 22px;
+            display: block;
             z-index: 999;
+            // transform: rotate(180deg);
+        }
+        .slick-prev:before, .slick-next:before{
+            font-size: 0;
         }
         
     }
