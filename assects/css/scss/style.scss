@@ -262,30 +262,49 @@ table {
 
 .section {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 100px auto;
     ul.project-wrap {
         display: flex;
         flex-wrap: wrap;
         gap:20px;
         li.card {
             border:1px solid #ccc;
-            p.card-title{
-                line-height: 1.5;
+            &:before{
+                content: "";
             }
+            &:last-child{
+                // border: 2px solid #888;
+                .project-img{
+                    background-color: #000;
+                    span{
+                        color:#fff
+                    }
+                }
+            }
+            
             a {
-                
+                p.card-title{
+                    line-height: 1.5;
+                    color: #222;
+                    padding: 20px;
+                    font-weight: bold;
+                    padding: 20px;
+                }
                 position: relative;
                 text-decoration: none;
                 .project-img{
+                    background: #f1f1f1;
+                    
                     position: relative;
                     width: 384px;
-                    height: calc( 9 / 16 * 400px);
+                    height: calc( 9 / 16 * 300px);
                     overflow: hidden;
                     img {
                         width: 100%;
                         position:absolute;    
                         top:0;
                         display: block;
+                        max-height: 179px;
                     }
                     span{
                         color: #555;
@@ -625,6 +644,8 @@ table {
     display: flex;
     flex-wrap: wrap;
     gap:10px;
+    
+    margin: 0 20px 20px;
     li{
         font-size: 14px;
         border:1px solid #222;
@@ -634,10 +655,11 @@ table {
 
     }
 }
+
 @media screen and (max-width:1200px) {
     .section {
         width: 90%;
-        margin: 0 auto
+        margin: 50px auto
     }
 
     .photo-section {
